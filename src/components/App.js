@@ -15,7 +15,7 @@ const App = () => {
     <div className="parent">
         <h1>Parent Component</h1>
         <Button handlefn={handlefn}/>
-        <p>Selected option: {option==''?'':option}</p>
+        <p>Selected Option: {option==''?'':option}</p>
     </div>
   )
 }
